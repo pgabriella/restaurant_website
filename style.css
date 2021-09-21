@@ -1,0 +1,764 @@
+.tab {
+    overflow: hidden;
+    border: none;
+    margin-top: -11%;
+    margin-left: 60%;
+    background-color:none;
+    
+    
+  }
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 20px;
+    color: rgb(107, 63, 8);
+    font-family:  'Roboto',  sans-serif;
+    font-weight: bolder;
+    
+  }
+  
+  .tab button:hover {
+    color: orange;
+  }
+  .tab button.active {
+    color: rgb(179, 102, 9) ;
+  }
+  
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: none;
+    border-top: none;
+    background-color: none;
+}
+
+.logo{
+    cursor: pointer;
+    width: 300px;
+    height: 300px;
+    margin-left: 5%;
+}
+
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.brunch{
+    text-align: left;
+    margin-left: 20%;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.dinner{
+    text-align: left;
+    margin-left:65%;
+    margin-top: -16%;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-family: 'Questrial', sans-serif;
+    font-weight: lighter;
+    color: rgb(107, 63, 8);
+}
+h2{
+    color: rgb(179, 102, 9);
+}
+
+
+.footer{
+    color: rgb(107, 63, 8);
+    text-align: center;
+    border-bottom: rgba(0,0,0,0.8);
+   
+    
+
+}
+footer{
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+.icon{
+   
+    margin-left: 10%;
+    margin-top: -4%;
+}
+
+
+.aboutsection{
+    margin-top: 10%;
+}
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 75%;
+    margin-left: 14%;
+    margin-top: 15%;
+  }
+  
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .container .btnreserv {
+    position: absolute;
+    top: 70%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: white;
+    font-size: 26px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Roboto';
+  }
+  
+  .container .btnreserv:hover {
+    background-color: transparent;
+  }
+
+.imgtwo{
+      margin-top: 5%;
+      margin-left: 10%;
+      
+}
+
+.waw{
+    margin-top: -70%;
+    margin-left: 62%;
+    font-family: 'Roboto',sans-serif;
+    font-size: 30px;
+}
+
+.footerabt{
+    margin-top:15%
+}
+ 
+.makeRes{
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 550px;
+    height: 600px;
+}
+
+#name{
+    width: 380px;
+    height: 20px;
+    
+}
+
+#num{
+    width: 380px;
+    height: 25px;
+    
+    
+}
+#date{
+    width: 382px;
+    height: 30px;
+   
+}
+
+.res{
+    margin-top: -50%;
+    margin-left: 60%;
+
+}
+h5{
+    font-family: 'Roboto',sans-serif;
+    color: rgb(107, 63, 8);
+    font-size: 25px;
+}
+.gal{
+    margin-top: 5%;
+    text-align: center;
+    color: rgb(179, 102, 9);
+    font-family: 'Roboto',sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    
+}
+ 
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 8%;
+    margin-top: 5%;
+  }
+  
+  #myImg:hover {
+    opacity: 0.7;
+  }
+  
+  .modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/ opacity */
+  }
+  
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  .modal-content,
+  #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {
+      transform: scale(0)
+    }
+    to {
+      transform: scale(1)
+    }
+  }
+  
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .modal-content {
+      width: 100%;
+    }
+  }
+
+#gallery .fot .footer{
+    color:rgb(179, 102, 9);
+}
+.footerabt{
+    margin-top: 20%;
+    margin-bottom: 0%;
+}
+#resrvation .footerabt .footer{
+    color: rgb(179, 102, 9);
+}
+
+
+.nav{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+.nav li{
+    margin: 20px;
+}
+.nav li a{
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(179, 102, 9);
+}
+.menuclass{
+    margin-top: -10%;
+    margin-left: 35%;
+    margin-right: 20%;
+    font-size: 30px;
+}
+.foodimg{
+  margin-left: 10%;
+  height: 650px;
+  width: 550px;
+}
+.lunchtime{
+  margin-top: -45%;
+  margin-left: 60%;
+  height: 590px;
+  font-size: 20px;
+}
+.drinksimg{
+  margin-left: 10%;
+  width: 550px;
+  height: 650px;
+}
+.drinktime{
+  margin-top: -40%;
+  margin-left: 60%;
+  height: 530px;
+  font-size: 20px;
+}
+.dessertimg{
+  
+  margin-left: 10%;
+  width: 550px;
+  height: 560px;
+
+}
+.desserttime{
+  margin-top: -35%;
+  margin-left: 60%;
+  height: 590px;
+  font-size: 20px;
+}
+.des{
+  margin-top: -61px;
+}
+.drinkk{
+  margin-top: -60px;
+}
+@media only screen and (max-width: 600px) {
+  .logo{
+    width: 200px;
+    height: 200px;
+    margin-left: 15%;
+    
+  }
+  .tab{
+    margin-top: 5%;
+    margin-left: 15%;
+
+  }
+  .slideshow-container{
+    width: auto;
+    margin-left: 6%;
+  }
+  .dots{
+    margin-left: 5%;
+  }
+  .brunch{
+    margin-left: 25%;
+    margin-right: 20%;
+  }
+  .dinner{
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 20%;
+  }
+  .container{
+    margin-left: 6%;
+    margin-right: 10%;
+  }
+  
+  .icon{
+    margin-top:2%;
+    margin-left: 40%;
+  }
+  #imgreserv{
+    width: 87vw;
+    
+  }
+
+}
+@media only screen and (min-width: 600px) and (max-width:900px) {
+  .logo{
+    width: 200px;
+    height: 200px;
+    margin-left: 15%;
+    
+  }
+  .tab{
+    margin-top: 5%;
+    margin-left: 15%;
+
+  }
+  .slideshow-container{
+    width: auto;
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+  .dots{
+    margin-left: 5%;
+  }
+  .brunch{
+    margin-left: 25%;
+    margin-right: 20%;
+  }
+  .dinner{
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 20%;
+  }
+  .container{
+    margin-left: 6%;
+    margin-right: 10%;
+  }
+  
+  .icon{
+    margin-top:2%;
+    margin-left: 42%;
+  }
+  #imgreserv{
+    width: 87vw;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+  }
+  .res{
+    margin-top: 6%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  #abt #imgsecond{
+    width: auto;
+    height: 220px;
+  }
+  .waw{
+    margin-top: -35%;
+    margin-left: 40%;
+    font-size: 20px;
+  }
+  .drinksimg{
+    width: 350px;
+    height: 450px;
+    margin-top: -14vh;
+  }
+  .dessertimg{
+    width: 350px;
+    height: 450px;
+    margin-top: -8vh;
+  }
+  .foodimg{
+    width: 350px;
+    height: 450px;
+  }
+  .desserttime{
+    margin-top: -40vh;
+  }
+  .drinktime{
+    margin-top: -40vh;
+  }
+  .lunchtime{
+    margin-top: -40vh;
+  }
+  .modal-content{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  #myImg{
+    width: auto;
+    height: 250px;
+  }
+  
+
+}
+
+
+@media only screen and (min-width: 901px) and (max-width:1200px) {
+  .logo{
+    width: 300px;
+    height: 300px;
+    margin-left: 2%;
+    
+  }
+  .tab{
+    margin-top: -12%;
+    margin-left: 50%;
+    margin-right: 10%;
+  }
+  .slideshow-container{
+    width: auto;
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+  .dots{
+    margin-left: 20%;
+    margin-right: 18%;
+  }
+  .brunch{
+    margin-left: 10%;
+  }
+  .dinner{
+    margin-top: -21%;
+    margin-left: 60%;
+    margin-right: 10%;
+  }
+  .container{
+    margin-left: 6%;
+    margin-right: 10%;
+  }
+  
+  .icon{
+    margin-top:2%;
+    margin-left: 43%;
+  }
+  #imgreserv{
+    width: 87vw;
+    
+  }
+  #abt #imgsecond{
+    width: 400px;
+    height:520px;
+    margin-left: 5%;
+  }
+  .waw{
+    margin-top: -58%;
+    margin-left: 50%;
+    margin-right: 10%;
+    
+  }
+  .lunchtime ,.desserttime ,.drinktime{
+    margin-top: -50%;
+    margin-left: 70%;
+  }
+  .drinksimg, .dessertimg{
+    margin-top: -5vh;
+  }
+
+  .dessertimg{
+    margin-left: 10%;
+  }
+
+  
+  .makeRes{
+    width: auto;
+    
+  }
+  .res{
+    margin-top: -60%;
+    margin-left: 55%;
+    margin-right: 10%;
+  }
+  #myImg{
+    width: 250px;
+  }
+  .modal{
+    width: fit-content;
+  }
+
+}
+@media only screen and (max-width: 599px) {
+  .logo{
+    width: 300px;
+    height: 300px;
+    margin-left: 15%;
+    
+  }
+  .tab{
+    margin-top: 5%;
+    margin-left: 5%;
+
+  }
+  .slideshow-container{
+    width: auto;
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+  .dots{
+    margin-left: 5%;
+  }
+  .brunch{
+    margin-left: 25%;
+    margin-right: 20%;
+  }
+  .dinner{
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 20%;
+  }
+  .container{
+    margin-left: 6%;
+    margin-right: 10%;
+  }
+  
+  .icon{
+    margin-top:2%;
+    margin-left: 30%;
+  }
+  
+  #abt #imgsecond{
+    width: 400px;
+    height:400px;
+    margin-left: 5%;
+    margin-right: 10%;
+  }
+  .waw{
+    margin-top: 5%;
+    margin-left: 6%;
+    margin-right: 10%;
+    font-size: 20px;
+  }
+  .foodimg, .drinksimg, .dessertimg{
+    width:400px;
+    height: 320px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .lunchtime{
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+  .drinksimg{
+    margin-top: -55%;
+  }
+  .drinktime{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .dessertimg{
+    margin-top: -50%;
+  }
+  .desserttime{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .makeRes{
+    width: fit-content;
+    margin-left: 6%;
+    margin-right: 10%;
+  }
+  .res{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  #myImg{
+    margin-left: 5%;
+    margin-right: 15%;
+  }
+  #img01{
+    width: fit-content;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

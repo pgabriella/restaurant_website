@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/d3026b5f41.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="https://s3.amazonaws.com/thumbnails.venngage.com/template/6114cd0a-e706-4e1b-85b5-8aca4c480570.png" alt=""   class="logo" onclick="location.reload(true)"/>
+    </header>
+    <div class="tab">
+      <button class="tablinks" onclick="openTab(event, 'abt') ;myFunction()">About us</button>
+      <button class="tablinks" onclick="openTab(event, 'menu'); myFunction()">Menu</button>
+      <button class="tablinks" onclick="openTab(event, 'resrvation');myFunction()">Reserve</button>
+      <button class="tablinks" onclick="openTab(event, 'gallery') ;myFunction()">Gallery</button>
+    </div>
+    
+    <div id="abt" class="tabcontent">
+      <img src="..//images/abt.jpg" class="imgtwo" id="imgsecond"/>
+      <div class="waw">
+        <h2>Who are we //</h2>
+        <p>Perfected our craft since our opening in early 1980's, we have become place you trust. 
+          Our restaurant provide with wide range of food, desserts & drinks for you and your partners, friends and your families.</br><br>
+          Food we prepare is made with fresh, everyday bought, groceries. We try to make our food as healthier as we can for our customers.<br></br>
+          Visit our new restaurant and see for yourself why we are the best in our industy of work.
+          <br></br><p style="font-weight: bold;">We are expecting you!</p>
+
+        </p>
+      </div>
+      <footer style="margin-top: 15%;">
+        <p class="footer">300 Benson Street, London<br>
+        info@artisan.com</p>
+      </footer>
+    </div>
+    
+    <div id="menu" class="tabcontent" >
+      <div class="container">
+        <p class="menuclass">Food & Drinks menu</p>
+        <ul class="nav ">
+          <li class="nav-item">
+            <a class="nav-link" href="#food">food</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#drinks">drinks</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#dessert">deserrt</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#cocktail">cocktails</a>
+          </li>
+        </ul>
+      </div>
+      <section id="food">
+        <img src="./images/chicken.jpg" alt="" class="foodimg" id="foodimg2">
+        <div class="lunchtime">
+          <p>Artisan chicken</p>
+          <p>Turkey</p>
+          <p>Ribs & meatloaf</p>
+          <p>Pizza</p>
+          <p>Burgers</p>
+          <p>Family meals</p>
+        </div>
+      </section>
+      <section id="drinks" class="drinkk">
+        <img src="./images/winewhite.jpg " alt="" class="drinksimg" />
+        <div class="drinktime">
+          <p>Coffee</p>
+          <p>Tea</p>
+          <p>Organic drinks</p>
+          <p>Non-alcoholic drinks</p>
+          <p>Alchoholic drinks</p>
+        </div>
+      </section>
+      <section id="dessert" class="des">
+        <img src="./images/cake.jpg" alt="" class="dessertimg"/>
+        <div class="desserttime">
+          <p>Cheesecake</p>
+        <p>Red Velvet</p>
+        <p>Sunset</p>
+        <p>Tiramisu</p>
+        <p>Coconat hulua</p>
+        <p>Ice cream</p>
+        </div>
+      </section>
+      <footer style="margin-top: -5%;">
+        <p class="footer">300 Benson Street,London</p>
+        <p class="footer">info@artisan.com</p>
+      </footer>
+      
+ 
+    </div>
+    
+    <div id="resrvation" class="tabcontent">
+      <img src="..//images/reservation.jpg" alt="" class="makeRes" />
+      
+      <div class="res">
+        
+        <h2 style="font-size: 35px;">Make a reservation //</h2>
+        <h5>You and your friends spent whole night getting ready and you coudn't find free table anywhere in town. It happens. But it doesn't have to happen again.
+          Spare few seconds, complete our registration form and in return we will have our best table waiting for you, whenever you show up.</h5>
+        <div class="form"  on>
+          <h3 style="color:rgb(241, 108, 13)"> // Reservation Form</h3>
+          <input type="text" id="name" placeholder="Your name" required >
+          <label for="name"></label><br>
+          <input type="number" id="num" placeholder="Number of people" min="1" max="6"  required >
+          <label for ="num"></label><br>
+          <button type="submit" id="send" onclick="validate()">Send</button>
+          <p id="text"></p>
+        </div>
+      </div>
+      <footer class="footerabt">
+        <p class="footer">300 Benson Street, London</p>
+        <p class="footer">info@artisan.com</p>
+      </footer>
+    </div>
+
+    <div id="gallery" class="tabcontent">
+        <p class="gal">Welcome to our gallery</p>
+        <img class="myImages" id="myImg" src="..//images/drink1.jpg" alt="Midnight sun in Lofoten, Norway" width="300" height="300">
+        <img class="myImages" id="myImg" src="..//images/pomfri.jpg" alt="Fishermen's cabins in Lofoten, Norway"
+        width="300" height="300">
+        <img class="myImages" id="myImg" src="../images/cookie.jpg" alt="Gerirangerfjord, Norway" width="300" height="300">
+        <img class="myImages" id="myImg" src="..//images/mainfood.jpg" alt="Gerirangerfjord, Norway" width="300" height="300">
+        <img class="myImages" id="myImg" src="..//images/vafli.jpg" alt="Gerirangerfjord, Norway" width="300" height="300">
+        <img class="myImages" id="myImg" src="../images/img.jpg" alt="Gerirangerfjord, Norway" width="300" height="300">
+        <img class="myImages" id="myImg" src="..//images/cockt.jpg" alt="Gerirangerfjord, Norway" width="300" height="300">
+        <img class="myImages" id="myImg" src="..//images/4be8a73572be861b438d35e9826b571f.jpg" alt="Gerirangerfjord, Norway" width="300" height="300">
+        <img class="myImages" id="myImg" src="../images/slika.jpg" alt="Gerirangerfjord, Norway" width="300" height="300">
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img01">
+          <div id="caption"></div>
+        </div>
+        <footer class="fot">
+          <p class="footer">300 Benson Street, London</p>
+          <p class="footer">info@artisan.com</p>
+        </footer>
+
+    </div>
+
+  <div id="home">
+    <div class="slideshow-container" style="margin-top: 5%;" >
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="..//images/restaurant.jpg" style="width:100%; height: 600px;" class="carimg">
+          <div class="text">Visit Us</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="..//images/cocktail.jpg" style="width:100%; height: 600px;" id="carimg">
+          <div class="text">Try one of our brand new cocktails</div>
+        </div>
+        
+        <div class="mySlides fade ">
+          <div class="numbertext">3 / 3</div>
+          <img src="..//images/dish.jpg" style="width:100%; height: 600px;" class="carimg">
+          <div class="text">Pick your favourite from our famous menu</div>
+    </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center" class="dots">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+
+        
+        
+    <div class="aboutsection"></div>
+      <div class="brunch">
+        <h2>Brunch //</h2>
+        <p>Monday to Sunday:</p>
+        <p>10:00 - 14:00</p>
+      </div>
+      <div class="dinner">
+        <h2>Dinner //</h2>
+        <p>Monday to Sunday:</p>
+        <p>17:00 - 00:00</p>
+      </div>
+      <div class="container">
+        <img src="..//images/eat.jpg" class="imgone" id="imgreserv">
+        <button class="btnreserv" >Make a reservation</button>
+      </div>
+      <footer>
+        <p class="footer">300 Benson Street, London</p>
+        <p class="footer">info@artisan.com</p>
+       <div class="icon"> <i class="fab fa-facebook-square fa-3x" style="color: rgb(241, 108, 13);"></i>
+        <i class="fab fa-twitter-square fa-3x" style="color: rgb(241, 108, 13);"></i>
+        <i class="fab fa-instagram fa-3x" style="color:rgb(241, 108, 13);"></i></div>
+      </footer></div>
+ 
+    
+  </div>
+
+        
+
+       
+
+        
+        
+
+
+        
+
+        
+        
+          
+       
+
+   
+
+       
+
+
+    
+
+
+
+
+
+
+
+<!-- JavaScript Bundle with Popper -->
+
+<script src="script.js"></script>
+</body>
+</html>
